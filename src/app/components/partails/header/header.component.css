@@ -1,0 +1,52 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #E72929;
+  position: relative;
+  margin-top: 0 auto;
+}
+a{
+  color: #af1313;
+}
+a:hover{
+  color: #fff;
+  background: #af1313;
+  cursor: pointer;
+}
+
+a.logo{
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem;
+}
+ul{
+  display: flex;
+  margin: 0;
+}
+ul a{
+  display: inline-block;
+  padding: 1rem;
+}
+a span{
+  background: #ff4d4d;
+  font-size: 0.9rem;
+  color: #fff;
+  border-radius: 100rem;
+  padding: 0.1rem 0.45rem;
+}
+.menu-container{
+  position: relative;
+}
+.menu{
+  display: none;
+  background: whitesmoke;
+  position: absolute;
+  z-index: 1;
+}
+.menu-container:hover .menu{
+  display: block;
+}
+.menu a{
+  width: 100%;
+  min-width: 8rem;
+}
